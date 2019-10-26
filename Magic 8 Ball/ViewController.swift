@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         case 2:
             labelAnswer.text = "Without a doubt"
         case 3:
-            labelAnswer.text = "You may rely on it"
+            labelAnswer.text = "100%"
         case 4:
             labelAnswer.text = "Yes definitely!"
         case 5:
@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         case 19:
             labelAnswer.text = "Very doubtful"
         default:
-            labelAnswer.text = "My reply is no"
+            labelAnswer.text = "Nah"
         
     }
   
