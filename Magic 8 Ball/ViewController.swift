@@ -11,10 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     // Marks: Properties
-
-    @IBOutlet weak var labelAnswer: UILabel!
     
-   // Marks: Methods (Actions)(Functions)
+    @IBOutlet weak var labelAnswer: UILabel!
+    // Marks: Methods (Actions)(Functions)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +21,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func Shake(_ sender: Any) {
+    
         let randomNumber = Int.random(in: 1...20)
         
         switch randomNumber {
