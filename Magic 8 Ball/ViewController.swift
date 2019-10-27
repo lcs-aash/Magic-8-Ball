@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     // Marks: Properties
     
     @IBOutlet weak var labelAnswer: UILabel!
+
     // Marks: Methods (Actions)(Functions)
     
     override func viewDidLoad() {
